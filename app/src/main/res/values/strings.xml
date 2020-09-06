@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">App2</string>
+
+    <string name="next">Next</string>
+    <string name="state">Select a state</string>
+    <string name="district">Select a district</string>
+    <string name="ok">OK</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="politicalparty">Political Party</string>
+    <string name="politicalexperience">Political Experience</string>
+    <string name="fathername">Father Name</string>
+    <string name="mothernamde">Mothers Name</string>
+    <string name="spousename">Spouse Name</string>
+    <string name="education">Education Qualification</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="networth">Net Worth</string>
+    <string name="personaldetail">Personal Detail</string>
+    <string name="candidateprofile">Candidate Profile</string>
+
+
+</resources>

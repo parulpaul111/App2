@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App2</string>
+    <string name="next">अगली स्क्रीन</string>
+    <string name="state">एक राज्य का चयन करें</string>
+    <string name="district">एकजिला का चयन करें</string>
+    <string name="ok">ठीक</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="politicalparty">Political Party</string>
+    <string name="politicalexperience">Political Experience</string>
+    <string name="fathername">Father Name</string>
+    <string name="mothernamde">Mothers Name</string>
+    <string name="spousename">Spouse Name</string>
+    <string name="education">Education Qualification</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="networth">Net Worth</string>
+
+    <string name="candidateprofile">उम्मीदवार का प्रोफ़ाइल</string>
+
+</resources>

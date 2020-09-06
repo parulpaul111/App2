@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageSelectionActivity"
+    android:background="@drawable/bg1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/txt_label"
+            android:layout_width="272dp"
+            android:layout_height="82dp"
+            android:layout_alignParentTop="true"
+            android:background="#B2BDFD"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="56dp"
+            android:paddingTop="5dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="20dp"
+            android:text="Select your language..
+                        अपनी भाषा का चयन करें |"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:paddingLeft="25dp"
+            android:paddingRight="20dp" />
+
+        <TextView
+            android:id="@+id/btnEnglish"
+            android:layout_width="147dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="126dp"
+            android:layout_marginLeft="126dp"
+            android:layout_marginTop="254dp"
+            android:layout_marginEnd="138dp"
+            android:layout_marginRight="138dp"
+            android:background="@drawable/bg2"
+            android:gravity="right|center"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:text="ENGLISH"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="132dp"
+            android:layout_marginLeft="132dp"
+            android:layout_marginTop="276dp"
+            app:srcCompat="@drawable/people1"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <TextView
+            android:id="@+id/txt_or"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnEnglish"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="187dp"
+            android:layout_marginLeft="187dp"
+            android:layout_marginTop="352dp"
+            android:text="OR"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnHindi"
+            android:layout_width="147dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/txt_or"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="137dp"
+            android:layout_marginRight="137dp"
+            android:background="@drawable/bg2"
+            android:gravity="center"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:text="     HINDI"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="134dp"
+            android:layout_marginLeft="134dp"
+            android:layout_marginTop="426dp"
+            app:srcCompat="@drawable/people"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
